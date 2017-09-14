@@ -32,7 +32,8 @@ export default class RNTest extends Component {
         <Text>Linear Layout demo</Text>
         <Text>The below view should be arranged in a row</Text>
         <View style={{flexDirection: 'row', flex: 1}}>
-          <Text>Column 1 Column 2</Text>
+          <Text>Column 1</Text>
+          <Text>Column 2</Text>
         </View>
         <Text>But it is arranged in two different rows</Text>
       </LinearLayout>
